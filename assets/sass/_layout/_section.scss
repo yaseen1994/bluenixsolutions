@@ -610,7 +610,7 @@
 		z-index: 2;
 		&::after {
 			position: absolute;
-			content: url(/assets/images/shape/case-btn-shape.png);
+			content: url(assets/images/shape/case-btn-shape.png);
 			right: -20px;
 			top: 0px;
 			z-index: -1;
@@ -620,7 +620,7 @@
 		}
 		&::before {
 			position: absolute;
-			content: url(/assets/images/shape/case-btn-shape.png);
+			content: url(assets/images/shape/case-btn-shape.png);
 			left: -20px;
 			top: -28px;
 			z-index: -1;

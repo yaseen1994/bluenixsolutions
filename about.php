@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About Us</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>About
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>About
                         Us</span>
                 </div>
             </div>
@@ -55,27 +55,27 @@ include 'includes/header.php';
         <!-- About area start here -->
         <section class="about-two-area pt-120">
             <div class="about-two__shape">
-                <img src="assets/images/shape/about-two-shape.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/shape/about-two-shape.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="about-two__left-item">
                             <div class="dots">
-                                <img class="sway_Y__animation" src="assets/images/shape/about-two-dot.png" alt="shape">
+                                <img class="sway_Y__animation" src="<?php echo $base_url; ?>/assets/images/shape/about-two-dot.png" alt="shape">
                             </div>
                             <div class="shape-halper">
-                                <img class="sway__animation" src="assets/images/shape/about-circle-helper.png"
+                                <img class="sway__animation" src="<?php echo $base_url; ?>/assets/images/shape/about-circle-helper.png"
                                     alt="shape">
                             </div>
                             <div class="image big-image">
-                                <img src="assets/images/about/about-two-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/about/about-two-image1.jpg" alt="image">
                             </div>
                             <div class="image sm-image">
-                                <img src="assets/images/about/about-two-image2.png" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/about/about-two-image2.png" alt="image">
                             </div>
                             <div class="circle-shape">
-                                <img class="animation__rotate" src="assets/images/shape/about-two-circle.png"
+                                <img class="animation__rotate" src="<?php echo $base_url; ?>/assets/images/shape/about-two-circle.png"
                                     alt="shape">
                             </div>
                         </div>
@@ -83,7 +83,7 @@ include 'includes/header.php';
                     <div class="col-xl-6">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                                <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                                 WHO WE ARE
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Ensuring Your
@@ -107,7 +107,7 @@ include 'includes/header.php';
                         </div>
                         <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <a href="#0" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
-                            <img src="assets/images/about/singature.png" alt="singature">
+                            <img src="<?php echo $base_url; ?>/assets/images/about/singature.png" alt="singature">
                         </div>
                     </div>
                 </div>
@@ -118,27 +118,27 @@ include 'includes/header.php';
         <!-- Offer area start here -->
         <section class="offer-area secondary-bg pt-120 pb-200">
             <div class="offer__shadow wow fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/shape/offer-shadow-shape.png" alt="shadow">
+                <img src="<?php echo $base_url; ?>/assets/images/shape/offer-shadow-shape.png" alt="shadow">
             </div>
             <div class="offer__shape-left">
                 <img class="wow fadeInUpBig" data-wow-delay="400ms" data-wow-duration="1500ms"
-                    src="assets/images/shape/offer-bg-shape-left.png" alt="shape">
+                    src="<?php echo $base_url; ?>/assets/images/shape/offer-bg-shape-left.png" alt="shape">
             </div>
             <div class="offer__shape-right">
                 <img class="wow fadeInDownBig" data-wow-delay="400ms" data-wow-duration="1500ms"
-                    src="assets/images/shape/offer-bg-shape-right.png" alt="shape">
+                    src="<?php echo $base_url; ?>/assets/images/shape/offer-bg-shape-right.png" alt="shape">
             </div>
             <div class="container">
                 <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-95">
                     <div class="section-header">
                         <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                            <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                             Our offering
                         </h5>
                         <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Enhance
                             and Pioneer Using <br> Technology Trends</h2>
                     </div>
-                    <a href="pricing.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                    <a href="<?php echo $base_url; ?>/pricing" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">Explore
                         More <i class="fa-regular fa-arrow-right-long"></i></a>
                 </div>
@@ -147,10 +147,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -167,10 +167,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -190,10 +190,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -221,10 +221,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="26" height="36" viewBox="0 0 26 36" fill="none"
@@ -253,10 +253,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -286,10 +286,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="offer__item">
                             <div class="shape-top">
-                                <img src="assets/images/shape/offter-item-shape-top.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-top.png" alt="shape">
                             </div>
                             <div class="shape-bottom">
-                                <img src="assets/images/shape/offter-item-shape-bottom.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/offter-item-shape-bottom.png" alt="shape">
                             </div>
                             <div class="offer__icon">
                                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -316,33 +316,33 @@ include 'includes/header.php';
             <div class="container">
                 <div class="brand__wrp">
                     <div class="brand__shape">
-                        <img src="assets/images/shape/brand-shape.png" alt="">
+                        <img src="<?php echo $base_url; ?>/assets/images/shape/brand-shape.png" alt="">
                     </div>
                     <div class="swiper brand__slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image1.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/brand/brand-image1.png" alt="image">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image2.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/brand/brand-image2.png" alt="image">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image3.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/brand/brand-image3.png" alt="image">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image4.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/brand/brand-image4.png" alt="image">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand__image image">
-                                    <img src="assets/images/brand/brand-image5.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/brand/brand-image5.png" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -358,13 +358,13 @@ include 'includes/header.php';
                 <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between mb-60">
                     <div class="section-header">
                         <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                            <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                             FROM OUR CASE studies
                         </h5>
                         <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">We Delivered Best
                             Solution</h2>
                     </div>
-                    <a href="case.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                    <a href="<?php echo $base_url; ?>/case" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">view All
                         Case <i class="fa-regular fa-arrow-right-long"></i></a>
                 </div>
@@ -374,13 +374,13 @@ include 'includes/header.php';
                     <div class="swiper-slide">
                         <div class="case__item">
                             <div class="image case__image">
-                                <img src="assets/images/case/case-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image1.jpg" alt="image">
                             </div>
                             <div class="case__content">
                                 <span class="primary-color sm-font">Solution</span>
-                                <h3><a href="case-details.html" class="text-white primary-hover">IT Management</a></h3>
+                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">IT Management</a></h3>
                             </div>
-                            <a href="case-details.html" class="case__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -388,14 +388,14 @@ include 'includes/header.php';
                     <div class="swiper-slide">
                         <div class="case__item">
                             <div class="image case__image">
-                                <img src="assets/images/case/case-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image2.jpg" alt="image">
                             </div>
                             <div class="case__content">
                                 <span class="primary-color sm-font">Technology</span>
-                                <h3><a href="case-details.html" class="text-white primary-hover">Platform
+                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Platform
                                         Integration</a></h3>
                             </div>
-                            <a href="case-details.html" class="case__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -403,14 +403,14 @@ include 'includes/header.php';
                     <div class="swiper-slide">
                         <div class="case__item">
                             <div class="image case__image">
-                                <img src="assets/images/case/case-image3.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image3.jpg" alt="image">
                             </div>
                             <div class="case__content">
                                 <span class="primary-color sm-font">Solution</span>
-                                <h3><a href="case-details.html" class="text-white primary-hover">Web Development</a>
+                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Web Development</a>
                                 </h3>
                             </div>
-                            <a href="case-details.html" class="case__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -418,14 +418,14 @@ include 'includes/header.php';
                     <div class="swiper-slide">
                         <div class="case__item">
                             <div class="image case__image">
-                                <img src="assets/images/case/case-image4.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image4.jpg" alt="image">
                             </div>
                             <div class="case__content">
                                 <span class="primary-color sm-font">Security</span>
-                                <h3><a href="case-details.html" class="text-white primary-hover">Network Security</a>
+                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Network Security</a>
                                 </h3>
                             </div>
-                            <a href="case-details.html" class="case__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -439,7 +439,7 @@ include 'includes/header.php';
         <!-- Cause area end here -->
 
         <!-- Testimonial area start here -->
-        <section class="testimonial-area bg-image pt-120 pb-120" data-background="assets/images/bg/testimonial-bg.png">
+        <section class="testimonial-area bg-image pt-120 pb-120" data-background="<?php echo $base_url; ?>/assets/images/bg/testimonial-bg.png">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -486,7 +486,7 @@ include 'includes/header.php';
                     <div class="col-lg-6 ps-2 ps-lg-5">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                                <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                                 CLIENTS REVIEW
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What They Say
@@ -507,7 +507,7 @@ include 'includes/header.php';
                                                 fill="#3C72FC" />
                                         </svg>
                                         <div class="d-flex align-items-center gap-3">
-                                            <img src="assets/images/testimonial/testimonial-image1.png" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/testimonial/testimonial-image1.png" alt="image">
                                             <div class="testi-info">
                                                 <h4>Kathryn Murphy</h4>
                                                 <p>Web Developer</p>
@@ -535,7 +535,7 @@ include 'includes/header.php';
                                                 fill="#3C72FC" />
                                         </svg>
                                         <div class="d-flex align-items-center gap-3">
-                                            <img src="assets/images/testimonial/testimonial-image2.png" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/testimonial/testimonial-image2.png" alt="image">
                                             <div class="testi-info">
                                                 <h4>Alex Rony</h4>
                                                 <p>Web Designer</p>
@@ -575,7 +575,7 @@ include 'includes/header.php';
             <div class="container">
                 <div class="section-header text-center mb-60">
                     <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                        <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                         OUR team
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Leadership Team</h2>
@@ -585,10 +585,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image1.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details.html">Kawser Ahmed</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Kawser Ahmed</a></h4>
                                 <span class="text-white">Web Designer</span>
                             </div>
                             <div class="team__share">
@@ -607,10 +607,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image2.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details.html">Karniz Fatema</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Karniz Fatema</a></h4>
                                 <span class="text-white">Customer Support</span>
                             </div>
                             <div class="team__share">
@@ -629,10 +629,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image3.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image3.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details.html">Alex Pranto</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Alex Pranto</a></h4>
                                 <span class="text-white">UI/UX Designer</span>
                             </div>
                             <div class="team__share">

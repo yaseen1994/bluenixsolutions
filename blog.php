@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Blog Grid</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog Grid</span>
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog Grid</span>
                 </div>
             </div>
         </section>
@@ -58,8 +58,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-image1.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image d-block image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image1.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">10</h3>
                                     <span class="text-white">Dec</span>
@@ -105,9 +105,9 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">Necessity May Give us Best Virtual
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Necessity May Give us Best Virtual
                                         Court</a></h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -115,8 +115,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image image d-block">
-                                <img src="assets/images/blog/blog-image2.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image image d-block">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image2.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">12</h3>
                                     <span class="text-white">Dec</span>
@@ -162,9 +162,9 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">Tackling the Changes of Retail
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Tackling the Changes of Retail
                                         Industry</a></h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -172,8 +172,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image image d-block">
-                                <img src="assets/images/blog/blog-image3.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image image d-block">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image3.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">15</h3>
                                     <span class="text-white">Dec</span>
@@ -219,10 +219,10 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">Easy and Most Powerful Server and
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Easy and Most Powerful Server and
                                         Platform</a>
                                 </h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -230,8 +230,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-image4.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image d-block image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image4.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">18</h3>
                                     <span class="text-white">Dec</span>
@@ -277,9 +277,9 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">Keep Your Business Safe & Ensure
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Keep Your Business Safe & Ensure
                                         High Availability.</a></h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -287,8 +287,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image image d-block">
-                                <img src="assets/images/blog/blog-image5.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image image d-block">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image5.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">20</h3>
                                     <span class="text-white">Dec</span>
@@ -334,9 +334,9 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">Powerful Server and Platform</a>
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Powerful Server and Platform</a>
                                 </h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -344,8 +344,8 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                         data-wow-duration="1500ms">
                         <div class="blog__item">
-                            <a href="blog-details.html" class="blog__image image d-block">
-                                <img src="assets/images/blog/blog-image6.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image image d-block">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-image6.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">24</h3>
                                     <span class="text-white">Dec</span>
@@ -391,10 +391,10 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.html" class="primary-hover">What’s the Holding Back the It
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">What’s the Holding Back the It
                                         Solution</a>
                                 </h3>
-                                <a class="mt-25 read-more-btn" href="blog-details.html">Read More <i
+                                <a class="mt-25 read-more-btn" href="<?php echo $base_url; ?>/blog-details">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>

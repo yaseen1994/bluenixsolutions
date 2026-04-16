@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Pricing</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Pricing</span>
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Pricing</span>
                 </div>
             </div>
         </section>
@@ -56,7 +56,7 @@ include 'includes/header.php';
             <div class="container">
                 <div class="section-header text-center mb-60">
                     <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                        <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                         PRICE PLANS
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Flexible Pricing Plans
@@ -67,15 +67,15 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="pricing__item">
                             <div class="item-shape">
-                                <img src="assets/images/shape/pricing-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/pricing-item-shape.png" alt="shape">
                             </div>
                             <div class="pricing-head">
                                 <div>
                                     <h4 class="text-white mb-10">Basic Plan</h4>
                                     <h2>$39<span>/monthly</span></h2>
                                 </div>
-                                <div class="pricing-icon" data-background="assets/images/shape/pricing-icon-bg.png">
-                                    <img src="assets/images/icon/pricing-icon1.png" alt="icon">
+                                <div class="pricing-icon" data-background="<?php echo $base_url; ?>/assets/images/shape/pricing-icon-bg.png">
+                                    <img src="<?php echo $base_url; ?>/assets/images/icon/pricing-icon1.png" alt="icon">
                                 </div>
                             </div>
                             <ul>
@@ -93,15 +93,15 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="pricing__item">
                             <div class="item-shape">
-                                <img src="assets/images/shape/pricing-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/pricing-item-shape.png" alt="shape">
                             </div>
                             <div class="pricing-head">
                                 <div>
                                     <h4 class="text-white mb-10">Standard Plan</h4>
                                     <h2>$59<span>/monthly</span></h2>
                                 </div>
-                                <div class="pricing-icon" data-background="assets/images/shape/pricing-icon-bg.png">
-                                    <img src="assets/images/icon/pricing-icon2.png" alt="icon">
+                                <div class="pricing-icon" data-background="<?php echo $base_url; ?>/assets/images/shape/pricing-icon-bg.png">
+                                    <img src="<?php echo $base_url; ?>/assets/images/icon/pricing-icon2.png" alt="icon">
                                 </div>
                             </div>
                             <ul>
@@ -119,15 +119,15 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="pricing__item">
                             <div class="item-shape">
-                                <img src="assets/images/shape/pricing-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/pricing-item-shape.png" alt="shape">
                             </div>
                             <div class="pricing-head">
                                 <div>
                                     <h4 class="text-white mb-10">Premium Plan</h4>
                                     <h2>$79<span>/monthly</span></h2>
                                 </div>
-                                <div class="pricing-icon" data-background="assets/images/shape/pricing-icon-bg.png">
-                                    <img src="assets/images/icon/pricing-icon3.png" alt="icon">
+                                <div class="pricing-icon" data-background="<?php echo $base_url; ?>/assets/images/shape/pricing-icon-bg.png">
+                                    <img src="<?php echo $base_url; ?>/assets/images/icon/pricing-icon3.png" alt="icon">
                                 </div>
                             </div>
                             <ul>

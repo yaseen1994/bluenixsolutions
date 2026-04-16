@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Faq</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Faq</span>
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Faq</span>
                 </div>
             </div>
         </section>
@@ -58,15 +58,15 @@ include 'includes/header.php';
                     <div class="col-lg-5 pe-2 pe-lg-5">
                         <div class="faq__image image wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="faq__line sway__animation">
-                                <img src="assets/images/shape/faq-line.png" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/faq-line.png" alt="image">
                             </div>
-                            <img src="assets/images/faq/faq-image.png" alt="image">
+                            <img src="<?php echo $base_url; ?>/assets/images/faq/faq-image.png" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-7 mt-60">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                                <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                                 FAQ
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Most Common

@@ -1,62 +1,62 @@
 <header class="header-area">
         <div class="container header__container">
             <div class="header__main">
-                <a href="index.html" class="logo">
-                    <img src="assets/images/logo/logo-light.png" alt="logo">
+                <a href="<?php echo $base_url; ?>" class="logo">
+                    <img src="<?php echo $base_url; ?>/assets/images/logo/logo-light.png" alt="logo">
                 </a>
                 <div class="main-menu">
                     <nav>
                         <ul>
                             <li class="has-megamenu">
-                                <a href="index.html">Home</a>
+                                <a href="<?php echo $base_url; ?>">Home</a>
                                 <!-- <ul class="sub-menu mega-menu menu-image">
                                     <li>
                                         <div class="image text-center">
-                                            <img src="assets/images/menu/home1-image.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/menu/home1-image.jpg" alt="image">
                                             <div class="btn__group">
-                                                <a href="index.html" class="btn-one">Multi Page</a>
-                                                <a href="index-one-page.html" class="btn-one mt-2">One Page</a>
+                                                <a href="<?php echo $base_url; ?>" class="btn-one">Multi Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-one-page" class="btn-one mt-2">One Page</a>
                                             </div>
                                             <h6 class="text-white">Home Page 01</h6>
                                         </div>
                                         <div class="image text-center">
-                                            <img src="assets/images/menu/home2-image.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/menu/home2-image.jpg" alt="image">
                                             <div class="btn__group">
-                                                <a href="index-2.html" class="btn-one">Multi Page</a>
-                                                <a href="index-2-one-page.html" class="btn-one mt-2">One Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-2" class="btn-one">Multi Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-2-one-page" class="btn-one mt-2">One Page</a>
                                             </div>
                                             <h6 class="text-white">Home Page 02</h6>
                                         </div>
                                         <div class="image text-center">
-                                            <img src="assets/images/menu/home3-image.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/menu/home3-image.jpg" alt="image">
                                             <div class="btn__group">
-                                                <a href="index-3.html" class="btn-one">Multi Page</a>
-                                                <a href="index-3-one-page.html" class="btn-one mt-2">One Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-3" class="btn-one">Multi Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-3-one-page" class="btn-one mt-2">One Page</a>
                                             </div>
                                             <h6 class="text-white">Home Page 03</h6>
                                         </div>
                                         <div class="image text-center">
-                                            <img src="assets/images/menu/home4-image.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/menu/home4-image.jpg" alt="image">
                                             <div class="btn__group">
-                                                <a href="index-dark.html" class="btn-one">View Page</a>
+                                                <a href="<?php echo $base_url; ?>/index-dark" class="btn-one">View Page</a>
                                             </div>
                                             <h6 class="text-white">Home Dark</h6>
                                         </div>
                                     </li>
                                 </ul> -->
                             </li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="<?php echo $base_url; ?>/about">About</a></li>
                             <li>
                                 <a href="#0">Services</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="service-solutions.html">IT Solutions</a>
+                                        <a href="<?php echo $base_url; ?>/service-solutions">IT Solutions</a>
                                     </li>
                                     <li>
-                                        <a href="service.html">IT Services</a>
+                                        <a href="<?php echo $base_url; ?>/service">IT Services</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">Service Details</a>
+                                        <a href="<?php echo $base_url; ?>/service-details">Service Details</a>
                                     </li>
                                 </ul>
                             </li>
@@ -64,28 +64,28 @@
                                 <a href="#0">Pages</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="case.html">Case Study 01</a>
+                                        <a href="<?php echo $base_url; ?>/case">Case Study 01</a>
                                     </li>
                                     <li>
-                                        <a href="case-2.html">Case Study 02</a>
+                                        <a href="<?php echo $base_url; ?>/case-2">Case Study 02</a>
                                     </li>
                                     <li>
-                                        <a href="case-details.html">Case Study Details</a>
+                                        <a href="<?php echo $base_url; ?>/case-details">Case Study Details</a>
                                     </li>
                                     <li>
-                                        <a href="team.html">Our Team</a>
+                                        <a href="<?php echo $base_url; ?>/team">Our Team</a>
                                     </li>
                                     <li>
-                                        <a href="team-details.html">Team Details</a>
+                                        <a href="<?php echo $base_url; ?>/team-details">Team Details</a>
                                     </li>
                                     <li>
-                                        <a href="pricing.html">Pricing</a>
+                                        <a href="<?php echo $base_url; ?>/pricing">Pricing</a>
                                     </li>
                                     <li>
-                                        <a href="faq.html">FAQ's</a>
+                                        <a href="<?php echo $base_url; ?>/faq">FAQ's</a>
                                     </li>
                                     <li>
-                                        <a href="error.html">404 Error</a>
+                                        <a href="<?php echo $base_url; ?>/error">404 Error</a>
                                     </li>
                                 </ul>
                             </li>
@@ -93,17 +93,17 @@
                                 <a href="#0">Blog</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="blog.html">Blog Grid</a>
+                                        <a href="<?php echo $base_url; ?>/blog">Blog Grid</a>
                                     </li>
                                     <li>
-                                        <a href="blog-standard.html">Blog Standard</a>
+                                        <a href="<?php echo $base_url; ?>/blog-standard">Blog Standard</a>
                                     </li>
                                     <li>
-                                        <a href="blog-details.html">Blog Details</a>
+                                        <a href="<?php echo $base_url; ?>/blog-details">Blog Details</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="<?php echo $base_url; ?>/contact">Contact</a></li>
                             <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0"><svg width="17"
                                         height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_307_344)">
@@ -122,7 +122,7 @@
                     </nav>
                 </div>
                 <div class="d-none d-lg-inline-block">
-                    <a href="contact.html" class="btn-one">Get A Quote <i
+                    <a href="<?php echo $base_url; ?>/contact" class="btn-one">Get A Quote <i
                             class="fa-regular fa-arrow-right-long"></i></a>
                 </div>
                 <div class="bars d-block d-lg-none">

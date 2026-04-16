@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Service Details</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
                         Details</span>
                 </div>
             </div>
@@ -59,7 +59,7 @@ include 'includes/header.php';
                     <div class="col-lg-8 order-2 order-lg-1">
                         <div class="service-single__left-item">
                             <div class="image mb-50">
-                                <img src="assets/images/service/service-single-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/service/service-single-image1.jpg" alt="image">
                                 <div class="service-single__video-btn">
                                     <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
                                         data-wow-duration="1500ms">
@@ -95,7 +95,7 @@ include 'includes/header.php';
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="image">
-                                        <img src="assets/images/service/service-single-image2.jpg" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/service/service-single-image2.jpg" alt="image">
                                     </div>
                                 </div>
                             </div>

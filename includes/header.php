@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle ?? "My Site"; ?></title>
     <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" href="<?php echo $base_url; ?>/assets/images/favicon.png">
     <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/bootstrap.min.css">
     <!-- Mean menu css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/meanmenu.css">
     <!-- All min css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/all.min.css">
     <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/swiper-bundle.min.css">
     <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/magnific-popup.css">
     <!-- Animate css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/animate.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/animate.css">
     <!-- Nice select css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/nice-select.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/nice-select.css">
     <!-- Style css -->
-    <link rel="stylesheet" href="http://localhost/bluenix/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $base_url; ?>/assets/css/style.css">
 </head>

@@ -1,7 +1,7 @@
 <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
-        <a href="index.html" class="logo mb-40">
-            <img src="assets/images/logo/logo.png" alt="logo">
+        <a href="<?php echo $base_url; ?>" class="logo mb-40">
+            <img src="<?php echo $base_url; ?>/assets/images/logo/logo.png" alt="logo">
         </a>
         <div class="sidebar__search mb-30">
             <input type="text" placeholder="Search...">
@@ -14,7 +14,7 @@
             <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
                     href="tel:+208-6666-0112">+208-6666-0112</a>
             </li>
-            <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">info@example.com</a></li>
+            <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">info@bluenix.com</a></li>
         </ul>
         <div class="social-icon mt-20">
             <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>

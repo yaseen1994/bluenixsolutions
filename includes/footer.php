@@ -1,25 +1,25 @@
 <!-- Footer area start here -->
     <footer class="footer-area secondary-bg">
         <div class="footer__shape-regular-left wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <img src="assets/images/shape/footer-regular-left.png" alt="shape">
+            <img src="<?php echo $base_url; ?>/assets/images/shape/footer-regular-left.png" alt="shape">
         </div>
         <div class="footer__shape-solid-left wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img class="sway_Y__animation" src="assets/images/shape/footer-solid-left.png" alt="shape">
+            <img class="sway_Y__animation" src="<?php echo $base_url; ?>/assets/images/shape/footer-solid-left.png" alt="shape">
         </div>
         <div class="footer__shape-solid-right wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <img class="sway_Y__animation" src="assets/images/shape/footer-regular-right.png" alt="shape">
+            <img class="sway_Y__animation" src="<?php echo $base_url; ?>/assets/images/shape/footer-regular-right.png" alt="shape">
         </div>
         <div class="footer__shape-regular-right wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img src="assets/images/shape/footer-solid-right.png" alt="shape">
+            <img src="<?php echo $base_url; ?>/assets/images/shape/footer-solid-right.png" alt="shape">
         </div>
         <div class="footer__shadow-shape">
-            <img src="assets/images/shape/footer-shadow-shape.png" alt="shodow">
+            <img src="<?php echo $base_url; ?>/assets/images/shape/footer-shadow-shape.png" alt="shodow">
         </div>
         <div class="container">
             <div class="footer__wrp pt-100 pb-100">
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <a href="index.html" class="logo mb-30">
-                        <img src="assets/images/logo/logo.png" alt="image">
+                    <a href="<?php echo $base_url; ?>" class="logo mb-30">
+                        <img src="<?php echo $base_url; ?>/assets/images/logo/logo.png" alt="image">
                     </a>
                     <p>Phasellus ultricies aliquam volutpat
                         ullamcorper laoreet neque, a lacinia
@@ -34,30 +34,30 @@
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">IT Solution</h3>
                     <ul>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> IT
+                        <li><a href="<?php echo $base_url; ?>/service-details"><i class="fa-regular fa-angles-right me-1"></i> IT
                                 Management</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> SEO
+                        <li><a href="<?php echo $base_url; ?>/service-details"><i class="fa-regular fa-angles-right me-1"></i> SEO
                                 Optimization</a>
                         </li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Web
+                        <li><a href="<?php echo $base_url; ?>/service-details"><i class="fa-regular fa-angles-right me-1"></i> Web
                                 Development</a>
                         </li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Cyber
+                        <li><a href="<?php echo $base_url; ?>/service-details"><i class="fa-regular fa-angles-right me-1"></i> Cyber
                                 Security</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
+                        <li><a href="<?php echo $base_url; ?>/service-details"><i class="fa-regular fa-angles-right me-1"></i> Data
                                 Security</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Quick Link</h3>
                     <ul>
-                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> About Gratech</a></li>
-                        <li><a href="service.html"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
+                        <li><a href="<?php echo $base_url; ?>/about"><i class="fa-regular fa-angles-right me-1"></i> About Gratech</a></li>
+                        <li><a href="<?php echo $base_url; ?>/service"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
                         </li>
-                        <li><a href="pricing.html"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
+                        <li><a href="<?php echo $base_url; ?>/pricing"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
                         </li>
-                        <li><a href="case.html"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
-                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
+                        <li><a href="<?php echo $base_url; ?>/case"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
+                        <li><a href="<?php echo $base_url; ?>/team"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
@@ -112,26 +112,26 @@
     <!-- Back to top area end here -->
 
     <!-- Jquery 3.7.0 Min Js -->
-    <script src="http://localhost/bluenix/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap min Js -->
-    <script src="http://localhost/bluenix/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/bootstrap.min.js"></script>
     <!-- Mean menu Js -->
-    <script src="http://localhost/bluenix/assets/js/meanmenu.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/meanmenu.js"></script>
     <!-- Swiper bundle min Js -->
-    <script src="http://localhost/bluenix/assets/js/swiper-bundle.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/swiper-bundle.min.js"></script>
     <!-- Counterup min Js -->
-    <script src="http://localhost/bluenix/assets/js/jquery.counterup.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/jquery.counterup.min.js"></script>
     <!-- Wow min Js -->
-    <script src="http://localhost/bluenix/assets/js/wow.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/wow.min.js"></script>
     <!-- Pace min Js -->
-    <script src="http://localhost/bluenix/assets/js/pace.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/pace.min.js"></script>
     <!-- Magnific popup min Js -->
-    <script src="http://localhost/bluenix/assets/js/magnific-popup.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/magnific-popup.min.js"></script>
     <!-- Nice select min Js -->
-    <script src="http://localhost/bluenix/assets/js/nice-select.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/nice-select.min.js"></script>
     <!-- Isotope pkgd min Js -->
-    <script src="http://localhost/bluenix/assets/js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/isotope.pkgd.min.js"></script>
     <!-- Waypoints Js -->
-    <script src="http://localhost/bluenix/assets/js/jquery.waypoints.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/jquery.waypoints.js"></script>
     <!-- Script Js -->
-    <script src="http://localhost/bluenix/assets/js/script.js"></script>
+    <script src="<?php echo $base_url; ?>/assets/js/script.js"></script>

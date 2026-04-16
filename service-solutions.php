@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">IT Solutions</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>IT
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>IT
                         Solutions</span>
                 </div>
             </div>
@@ -55,19 +55,19 @@ include 'includes/header.php';
         <!-- Service area start here -->
         <section class="service-area pt-120 pb-120">
             <div class="service__shape wow slideInRight">
-                <img class="sway_Y__animation" src="assets/images/shape/service-bg-shape.png" alt="shape">
+                <img class="sway_Y__animation" src="<?php echo $base_url; ?>/assets/images/shape/service-bg-shape.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
                         <div class="service__item">
                             <div class="service-shape">
-                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/service-item-shape.png" alt="shape">
                             </div>
                             <div class="service__icon">
-                                <img src="assets/images/icon/service-icon1.png" alt="icon">
+                                <img src="<?php echo $base_url; ?>/assets/images/icon/service-icon1.png" alt="icon">
                             </div>
-                            <h4><a href="service-details.html">IT Management</a></h4>
+                            <h4><a href="<?php echo $base_url; ?>/service-details">IT Management</a></h4>
                             <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
                                 euismod quis sapien.</p>
                         </div>
@@ -75,12 +75,12 @@ include 'includes/header.php';
                     <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div class="service__item active">
                             <div class="service-shape">
-                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/service-item-shape.png" alt="shape">
                             </div>
                             <div class="service__icon">
-                                <img src="assets/images/icon/service-icon2.png" alt="icon">
+                                <img src="<?php echo $base_url; ?>/assets/images/icon/service-icon2.png" alt="icon">
                             </div>
-                            <h4><a href="service-details.html">Cyber Security</a></h4>
+                            <h4><a href="<?php echo $base_url; ?>/service-details">Cyber Security</a></h4>
                             <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
                                 euismod quis sapien.</p>
                         </div>
@@ -88,12 +88,12 @@ include 'includes/header.php';
                     <div class="col-lg-4 col-md-6 wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
                         <div class="service__item">
                             <div class="service-shape">
-                                <img src="assets/images/shape/service-item-shape.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/service-item-shape.png" alt="shape">
                             </div>
                             <div class="service__icon">
-                                <img src="assets/images/icon/service-icon3.png" alt="icon">
+                                <img src="<?php echo $base_url; ?>/assets/images/icon/service-icon3.png" alt="icon">
                             </div>
-                            <h4><a href="service-details.html">Web Development</a></h4>
+                            <h4><a href="<?php echo $base_url; ?>/service-details">Web Development</a></h4>
                             <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac iaculis ut
                                 euismod quis sapien.</p>
                         </div>
@@ -106,14 +106,14 @@ include 'includes/header.php';
         <!-- About area start here -->
         <section class="about-area sub-bg pt-120">
             <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <img src="assets/images/shape/about-line.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/shape/about-line.png" alt="shape">
             </div>
             <div class="container">
                 <div class="row g-4">
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="about__left-item">
                             <div class="image big-image">
-                                <img src="assets/images/about/about-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/about/about-image1.jpg" alt="image">
                             </div>
                             <div class="image sm-image">
                                 <div class="video__btn-wrp">
@@ -122,17 +122,17 @@ include 'includes/header.php';
                                                 class="fa-solid fa-play"></i></a>
                                     </div>
                                 </div>
-                                <img src="assets/images/about/about-image2.png" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/about/about-image2.png" alt="image">
                             </div>
                             <div class="circle-shape">
-                                <img src="assets/images/shape/about-circle.png" alt="shape">
+                                <img src="<?php echo $base_url; ?>/assets/images/shape/about-circle.png" alt="shape">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img class="me-1" src="assets/images/icon/section-title.png" alt="icon">
+                                <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
                                 ABOUT Gratech
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Strive to
@@ -147,7 +147,7 @@ include 'includes/header.php';
                             <div class="col-md-6">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="assets/images/icon/about-icon1.png" alt="icon">
+                                        <img src="<?php echo $base_url; ?>/assets/images/icon/about-icon1.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">Best Services</h4>
@@ -158,7 +158,7 @@ include 'includes/header.php';
                             <div class="col-md-6">
                                 <div class="about__right-item">
                                     <div class="icon">
-                                        <img src="assets/images/icon/about-icon2.png" alt="icon">
+                                        <img src="<?php echo $base_url; ?>/assets/images/icon/about-icon2.png" alt="icon">
                                     </div>
                                     <div class="content">
                                         <h4 class="mb-1">24/7 Call Support</h4>
@@ -168,10 +168,10 @@ include 'includes/header.php';
                             </div>
                         </div>
                         <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <a href="about.html" class="btn-one">Explore More <i
+                            <a href="<?php echo $base_url; ?>/about" class="btn-one">Explore More <i
                                     class="fa-regular fa-arrow-right-long"></i></a>
                             <div class="d-flex gap-2 align-items-center">
-                                <img src="assets/images/about/about-info.png" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/about/about-info.png" alt="image">
                                 <div class="info">
                                     <h5>Ronald Richards</h5>
                                     <span class="sm-font">Co, Founder</span>
@@ -189,31 +189,31 @@ include 'includes/header.php';
             <div class="container">
                 <div class="counter__wrp gradient-bg">
                     <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <img src="assets/images/shape/counnter-bg-shape.png" alt="shape">
+                        <img src="<?php echo $base_url; ?>/assets/images/shape/counnter-bg-shape.png" alt="shape">
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
-                        <img src="assets/images/icon/counter-icon1.png" alt="icon">
+                        <img src="<?php echo $base_url; ?>/assets/images/icon/counter-icon1.png" alt="icon">
                         <div class="content">
                             <h3><span class="count">6,561</span>+</h3>
                             <p class="text-white">Satisfied Clients</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                        <img src="assets/images/icon/counter-icon2.png" alt="icon">
+                        <img src="<?php echo $base_url; ?>/assets/images/icon/counter-icon2.png" alt="icon">
                         <div class="content">
                             <h3><span class="count">600</span>+</h3>
                             <p class="text-white">Finished Projects</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                        <img src="assets/images/icon/counter-icon3.png" alt="icon">
+                        <img src="<?php echo $base_url; ?>/assets/images/icon/counter-icon3.png" alt="icon">
                         <div class="content">
                             <h3><span class="count">250</span>+</h3>
                             <p class="text-white">Skilled Experts</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-                        <img src="assets/images/icon/counter-icon4.png" alt="icon">
+                        <img src="<?php echo $base_url; ?>/assets/images/icon/counter-icon4.png" alt="icon">
                         <div class="content">
                             <h3><span class="count">590</span>+</h3>
                             <p class="text-white">Media Posts</p>
@@ -250,10 +250,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image1.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Kawser Ahmed</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Kawser Ahmed</a></h4>
                                 <span class="text-white">Web Designer</span>
                             </div>
                             <div class="team__share">
@@ -272,10 +272,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image2.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Karniz Fatema</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Karniz Fatema</a></h4>
                                 <span class="text-white">Customer Support</span>
                             </div>
                             <div class="team__share">
@@ -294,10 +294,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image3.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image3.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Alex Pranto</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Alex Pranto</a></h4>
                                 <span class="text-white">UI/UX Designer</span>
                             </div>
                             <div class="team__share">

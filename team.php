@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Team</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Our Team</span>
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Our Team</span>
                 </div>
             </div>
         </section>
@@ -59,10 +59,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image1.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Kawser Ahmed</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Kawser Ahmed</a></h4>
                                 <span class="text-white">Web Designer</span>
                             </div>
                             <div class="team__share">
@@ -81,10 +81,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image2.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Karniz Fatema</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Karniz Fatema</a></h4>
                                 <span class="text-white">Customer Support</span>
                             </div>
                             <div class="team__share">
@@ -103,10 +103,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image3.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image3.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Alex Pranto</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Alex Pranto</a></h4>
                                 <span class="text-white">UI/UX Designer</span>
                             </div>
                             <div class="team__share">
@@ -125,10 +125,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image4.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image4.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Anneya Roy</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Anneya Roy</a></h4>
                                 <span class="text-white">Software Engineer</span>
                             </div>
                             <div class="team__share">
@@ -147,10 +147,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image6.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image6.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Mohmmad Arif</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Mohmmad Arif</a></h4>
                                 <span class="text-white">Marketing Manager</span>
                             </div>
                             <div class="team__share">
@@ -169,10 +169,10 @@ include 'includes/header.php';
                         data-wow-duration="1500ms">
                         <div class="team__item">
                             <div class="image">
-                                <img src="assets/images/team/team-image5.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/team/team-image5.jpg" alt="image">
                             </div>
                             <div class="team__content">
-                                <h4><a class="text-white" href="team-details">Prince Sagor</a></h4>
+                                <h4><a class="text-white" href="<?php echo $base_url; ?>/team-details">Prince Sagor</a></h4>
                                 <span class="text-white">Programmer</span>
                             </div>
                             <div class="team__share">

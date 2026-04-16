@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Blog Standard</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog
                         Standard</span>
                 </div>
             </div>
@@ -58,8 +58,8 @@ include 'includes/header.php';
                 <div class="row g-4">
                     <div class="col-lg-8 order-2 order-lg-1">
                         <div class="blog-two__grid-item shadow-none mb-30">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-single-image2.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image d-block image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-image2.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">10</h3>
                                     <span class="text-white">Dec</span>
@@ -109,7 +109,7 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">Keep Your Business Safe & Ensure
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Keep Your Business Safe & Ensure
                                         High
                                         Availability.</a></h3>
                                 <p class="mt-10">Consequat Quisque eget congue velit in OF cursus leo sodales IS the
@@ -117,20 +117,20 @@ include 'includes/header.php';
                                     sapien euismod</p>
                                 <div class="about__info justify-content-between flex-wrap gap-3 mt-25">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin1.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/admin1.png" alt="image">
                                         <div class="info">
                                             <a href="#0" class="primary-color">By Admin</a>
                                             <h5>Alex Rony</h5>
                                         </div>
                                     </div>
-                                    <a href="blog-details.html" class="btn-one">Read More <i
+                                    <a href="<?php echo $base_url; ?>/blog-details" class="btn-one">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="blog-two__grid-item shadow-none mb-30">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-single-image1.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image d-block image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-image1.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">12</h3>
                                     <span class="text-white">Dec</span>
@@ -180,27 +180,27 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">Tackling the Changes of Retail
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Tackling the Changes of Retail
                                         Industry</a></h3>
                                 <p class="mt-10">Consequat Quisque eget congue velit in OF cursus leo sodales IS the
                                     euismod quis
                                     sapien euismod</p>
                                 <div class="about__info justify-content-between flex-wrap gap-3 mt-25">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin2.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/admin2.png" alt="image">
                                         <div class="info">
                                             <a href="#0" class="primary-color">By Admin</a>
                                             <h5>Kawser Ahmed</h5>
                                         </div>
                                     </div>
-                                    <a href="blog-details.html" class="btn-one">Read More <i
+                                    <a href="<?php echo $base_url; ?>/blog-details" class="btn-one">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="blog-two__grid-item shadow-none">
-                            <a href="blog-details.htm" class="blog__image d-block image">
-                                <img src="assets/images/blog/blog-single-image3.jpg" alt="image">
+                            <a href="<?php echo $base_url; ?>/blog-details" class="blog__image d-block image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-image3.jpg" alt="image">
                                 <div class="blog-tag">
                                     <h3 class="text-white">18</h3>
                                     <span class="text-white">Dec</span>
@@ -250,7 +250,7 @@ include 'includes/header.php';
                                         <a href="#0">0 Comments</a>
                                     </li>
                                 </ul>
-                                <h3><a href="blog-details.htm" class="primary-hover">Keep Your Business Safe & Ensure
+                                <h3><a href="<?php echo $base_url; ?>/blog-details" class="primary-hover">Keep Your Business Safe & Ensure
                                         High
                                         Availability.</a></h3>
                                 <p class="mt-10">Consequat Quisque eget congue velit in OF cursus leo sodales IS the
@@ -258,13 +258,13 @@ include 'includes/header.php';
                                     sapien euismod</p>
                                 <div class="about__info justify-content-between flex-wrap gap-3 mt-25">
                                     <div class="d-flex gap-2 align-items-center">
-                                        <img src="assets/images/blog/admin3.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/admin3.png" alt="image">
                                         <div class="info">
                                             <a href="#0" class="primary-color">By Admin</a>
                                             <h5>Nur Islam</h5>
                                         </div>
                                     </div>
-                                    <a href="blog-details.html" class="btn-one">Read More <i
+                                    <a href="<?php echo $base_url; ?>/blog-details" class="btn-one">Read More <i
                                             class="fa-regular fa-arrow-right-long"></i></a>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@ include 'includes/header.php';
                                 <h5 class="title">Resent Post</h5>
                                 <ul class="single-post">
                                     <li>
-                                        <img src="assets/images/blog/post-sm1.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm1.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -311,13 +311,13 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 20 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">Keep Your
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">Keep Your
                                                     Business Safe &
                                                     Endure High Availability</a></h5>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/blog/post-sm2.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm2.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -329,13 +329,13 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 22 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">Tacking
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">Tacking
                                                     the Changes of <br>
                                                     Retail Industry</a></h5>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/blog/post-sm3.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm3.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -347,7 +347,7 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 25 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">What’s the
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">What’s the
                                                     Holding Back
                                                     the It Solution</a></h5>
                                         </div>

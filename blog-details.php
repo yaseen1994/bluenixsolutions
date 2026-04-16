@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Blog Details</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Blog
                         Details</span>
                 </div>
             </div>
@@ -59,7 +59,7 @@ include 'includes/header.php';
                     <div class="col-lg-8 order-2 order-lg-1">
                         <div class="blog__item blog-single__left-item shadow-none">
                             <div class="image">
-                                <img src="assets/images/blog/blog-single-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-image1.jpg" alt="image">
                             </div>
                             <div class="blog__content p-0">
                                 <ul class="pb-3 pt-30 bor-bottom d-flex gap-4 flex-wrap align-items-center">
@@ -73,7 +73,7 @@ include 'includes/header.php';
                                                 d="M17.2631 14.6707C17.1039 14.9459 16.9228 15.2074 16.7156 15.4768L16.7155 15.4767L16.7076 15.4874C16.419 15.879 16.0832 16.2375 15.7281 16.5925C15.4313 16.8893 15.0919 17.1862 14.7554 17.4386C13.0781 18.6912 11.0608 19.35 8.97684 19.35C6.89705 19.35 4.88376 18.6939 3.20845 17.4462C2.84457 17.1506 2.51237 16.8794 2.22556 16.5925L2.21859 16.5856L2.21141 16.5788C1.85532 16.2437 1.54107 15.8878 1.24614 15.4875L1.24616 15.4875L1.24283 15.483C1.06061 15.2401 0.8719 14.9757 0.717887 14.7171C0.834879 14.456 0.983241 14.1848 1.1439 13.9527L1.14402 13.9528L1.15153 13.9415C2.06854 12.5557 3.53574 11.6389 5.16512 11.4149L5.18469 11.4122L5.20407 11.4083C5.22956 11.4032 5.29364 11.4118 5.34417 11.4497L5.34416 11.4497L5.34817 11.4527C6.4152 12.2402 7.68499 12.6454 8.99949 12.6454C10.314 12.6454 11.5838 12.2402 12.6508 11.4527L12.6508 11.4527L12.6548 11.4497C12.6702 11.4381 12.739 11.4081 12.8479 11.4168C14.4675 11.6437 15.9108 12.5569 16.8511 13.947L16.8511 13.947L16.8551 13.9527C17.0152 14.1841 17.1543 14.4232 17.2631 14.6707Z"
                                                 stroke="#3C72FC" stroke-width="1.3" />
                                         </svg>
-                                        <a href="blog-single.html"><span class="primary-hover transition">By
+                                        <a href="<?php echo $base_url; ?>/blog-single"><span class="primary-hover transition">By
                                                 Admin</span></a>
                                     </li>
                                     <li>
@@ -102,7 +102,7 @@ include 'includes/header.php';
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        <a href="blog-single.html"><span
+                                        <a href="<?php echo $base_url; ?>/blog-single"><span
                                                 class="primary-hover transition">Technology</span></a>
                                     </li>
                                 </ul>
@@ -126,12 +126,12 @@ include 'includes/header.php';
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="image">
-                                            <img src="assets/images/blog/blog-single-sm1.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-sm1.jpg" alt="image">
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="image">
-                                            <img src="assets/images/blog/blog-single-sm2.jpg" alt="image">
+                                            <img src="<?php echo $base_url; ?>/assets/images/blog/blog-single-sm2.jpg" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +182,7 @@ include 'includes/header.php';
                             <h3>02 Reviews, for Tiles</h3>
                             <div class="blog-single__comment d-flex gap-4 mt-60 pb-60 bor-bottom">
                                 <div class="image">
-                                    <img src="assets/images/blog/comment-image1.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/blog/comment-image1.png" alt="image">
                                 </div>
                                 <div class="content">
                                     <div class="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
@@ -207,7 +207,7 @@ include 'includes/header.php';
                             </div>
                             <div class="blog-single__comment d-flex gap-4 mt-60 pb-60 bor-bottom">
                                 <div class="image">
-                                    <img src="assets/images/blog/comment-image2.png" alt="image">
+                                    <img src="<?php echo $base_url; ?>/assets/images/blog/comment-image2.png" alt="image">
                                 </div>
                                 <div class="content">
                                     <div class="head d-flex flex-wrap gap-2 align-items-center justify-content-between">
@@ -283,7 +283,7 @@ include 'includes/header.php';
                                 <h5 class="title">Resent Post</h5>
                                 <ul class="single-post">
                                     <li>
-                                        <img src="assets/images/blog/post-sm1.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm1.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -295,13 +295,13 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 20 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">Keep Your
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">Keep Your
                                                     Business Safe &
                                                     Endure High Availability</a></h5>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/blog/post-sm2.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm2.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -313,13 +313,13 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 22 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">Tacking
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">Tacking
                                                     the Changes of <br>
                                                     Retail Industry</a></h5>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/blog/post-sm3.png" alt="image">
+                                        <img src="<?php echo $base_url; ?>/assets/images/blog/post-sm3.png" alt="image">
                                         <div class="con">
                                             <span><svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -331,7 +331,7 @@ include 'includes/header.php';
                                                         fill="#3C72FC" />
                                                 </svg>
                                                 25 Nov, 2023</span>
-                                            <h5 class="mt-2"><a href="blog-single.html" class="primary-hover">What’s the
+                                            <h5 class="mt-2"><a href="<?php echo $base_url; ?>/blog-single" class="primary-hover">What’s the
                                                     Holding Back
                                                     the It Solution</a></h5>
                                         </div>

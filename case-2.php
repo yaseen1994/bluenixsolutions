@@ -32,20 +32,20 @@ include 'includes/header.php';
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="assets/images/banner/banner-inner-page.jpg">
+            data-background="<?php echo $base_url; ?>/assets/images/banner/banner-inner-page.jpg">
             <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape2.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape2.png" alt="shape">
             </div>
             <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="assets/images/banner/inner-banner-shape1.png" alt="shape">
+                <img src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape1.png" alt="shape">
             </div>
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="assets/images/banner/inner-banner-shape3.png" alt="shape">
+                <img class="sway__animationX" src="<?php echo $base_url; ?>/assets/images/banner/inner-banner-shape3.png" alt="shape">
             </div>
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Case Study 02</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Case Study
+                    <a href="<?php echo $base_url; ?>">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Case Study
                         02</span>
                 </div>
             </div>
@@ -59,13 +59,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-two-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-two-image1.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Technology</span>
-                                <h4><a href="case-details.html" class="text-white">Platform Integration</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">Platform Integration</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -73,13 +73,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-two-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-two-image2.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Technology</span>
-                                <h4><a href="case-details.html" class="text-white">IT Management</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">IT Management</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -87,13 +87,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-two-image3.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-two-image3.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Solution</span>
-                                <h4><a href="case-details.html" class="text-white">Web Development</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">Web Development</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -101,13 +101,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-two-image4.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-two-image4.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Security</span>
-                                <h4><a href="case-details.html" class="text-white">Network Security</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">Network Security</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -115,13 +115,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-image1.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image1.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Solution</span>
-                                <h4><a href="case-details.html" class="text-white">App Development</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">App Development</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
@@ -129,13 +129,13 @@ include 'includes/header.php';
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="assets/images/case/case-image2.jpg" alt="image">
+                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image2.jpg" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Security</span>
-                                <h4><a href="case-details.html" class="text-white">Database Security</a></h4>
+                                <h4><a href="<?php echo $base_url; ?>/case-details" class="text-white">Database Security</a></h4>
                             </div>
-                            <a href="case-details.html" class="case-two__btn">
+                            <a href="<?php echo $base_url; ?>/case-details" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
                             </a>
                         </div>
