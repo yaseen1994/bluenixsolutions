@@ -8,7 +8,7 @@
                                 fill="white" />
                         </svg>
 
-                        <a href="#0" class="ms-1">info@bluenix.com</a>
+                        <a href="#0" class="ms-1">info@bluenixsolutions.com</a>
                     </li>
                     <li class="ms-4"><svg width="16" height="15" viewBox="0 0 16 15" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -27,15 +27,15 @@
                             </defs>
                         </svg>
 
-                        <a href="#0" class="ms-1">+208-6666-0112</a>
+                        <a href="#0" class="ms-1">+91-9892570244</a>
                     </li>
                 </ul>
-                <ul class="link-info">
+                <!-- <ul class="link-info">
                     <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="#0"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>

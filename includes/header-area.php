@@ -1,3 +1,49 @@
+<?php
+$request_path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$request_path = trim((string) $request_path, '/');
+
+$base_path = trim((string) parse_url($base_url, PHP_URL_PATH), '/');
+
+if ($base_path !== '') {
+    if ($request_path === $base_path) {
+        $request_path = '';
+    } elseif (strpos($request_path, $base_path . '/') === 0) {
+        $request_path = substr($request_path, strlen($base_path) + 1);
+    }
+}
+
+$request_path = trim((string) $request_path, '/');
+$current_page = $request_path === '' ? 'home' : explode('/', $request_path)[0];
+$current_page = preg_replace('/\.php$/', '', $current_page);
+
+$nav_items = [
+    'home' => ['home'],
+    'about' => ['about'],
+    'services' => ['service-solutions', 'service', 'service-details'],
+    'pages' => ['case', 'case-2', 'case-details', 'team', 'team-details', 'pricing', 'faq', 'error'],
+    'blog' => ['blog', 'blog-standard', 'blog-details'],
+    'contact' => ['contact'],
+];
+
+$nav_class = static function (array $pages, string $default_class = '') use ($current_page): string {
+    $classes = trim($default_class . ' ' . (in_array($current_page, $pages, true) ? 'active' : ''));
+
+    return $classes !== '' ? ' class="' . $classes . '"' : '';
+};
+?>
+
+<style>
+    .header__main .main-menu ul li.active>a,
+    .header__main .main-menu ul li>a.active {
+        color: var(--primary-color);
+    }
+
+    .header__main .main-menu ul li.active>a i,
+    .header__main .main-menu ul li>a.active i {
+        color: var(--primary-color);
+    }
+</style>
+
 <header class="header-area">
         <div class="container header__container">
             <div class="header__main">
@@ -7,8 +53,8 @@
                 <div class="main-menu">
                     <nav>
                         <ul>
-                            <li class="has-megamenu">
-                                <a href="<?php echo $base_url; ?>">Home</a>
+                            <li<?php echo $nav_class($nav_items['home'], 'has-megamenu'); ?>>
+                                <a href="<?php echo $base_url; ?>"<?php echo $nav_class($nav_items['home']); ?>>Home</a>
                                 <!-- <ul class="sub-menu mega-menu menu-image">
                                     <li>
                                         <div class="image text-center">
@@ -45,65 +91,65 @@
                                     </li>
                                 </ul> -->
                             </li>
-                            <li><a href="<?php echo $base_url; ?>/about">About</a></li>
-                            <li>
-                                <a href="#0">Services</a>
+                            <li<?php echo $nav_class($nav_items['about']); ?>><a href="<?php echo $base_url; ?>/about"<?php echo $nav_class($nav_items['about']); ?>>About</a></li>
+                            <li<?php echo $nav_class($nav_items['services']); ?>>
+                                <a href="#0"<?php echo $nav_class($nav_items['services']); ?>>Services</a>
                                 <ul class="sub-menu">
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/service-solutions">IT Solutions</a>
+                                    <li<?php echo $nav_class(['service-solutions']); ?>>
+                                        <a href="<?php echo $base_url; ?>/service-solutions"<?php echo $nav_class(['service-solutions']); ?>>IT Solutions</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/service">IT Services</a>
+                                    <li<?php echo $nav_class(['service']); ?>>
+                                        <a href="<?php echo $base_url; ?>/service"<?php echo $nav_class(['service']); ?>>IT Services</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/service-details">Service Details</a>
+                                    <li<?php echo $nav_class(['service-details']); ?>>
+                                        <a href="<?php echo $base_url; ?>/service-details"<?php echo $nav_class(['service-details']); ?>>Service Details</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#0">Pages</a>
+                            <li<?php echo $nav_class($nav_items['pages']); ?>>
+                                <a href="#0"<?php echo $nav_class($nav_items['pages']); ?>>Pages</a>
                                 <ul class="sub-menu">
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/case">Case Study 01</a>
+                                    <li<?php echo $nav_class(['case']); ?>>
+                                        <a href="<?php echo $base_url; ?>/case"<?php echo $nav_class(['case']); ?>>Case Study 01</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/case-2">Case Study 02</a>
+                                    <li<?php echo $nav_class(['case-2']); ?>>
+                                        <a href="<?php echo $base_url; ?>/case-2"<?php echo $nav_class(['case-2']); ?>>Case Study 02</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/case-details">Case Study Details</a>
+                                    <li<?php echo $nav_class(['case-details']); ?>>
+                                        <a href="<?php echo $base_url; ?>/case-details"<?php echo $nav_class(['case-details']); ?>>Case Study Details</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/team">Our Team</a>
+                                    <li<?php echo $nav_class(['team']); ?>>
+                                        <a href="<?php echo $base_url; ?>/team"<?php echo $nav_class(['team']); ?>>Our Team</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/team-details">Team Details</a>
+                                    <li<?php echo $nav_class(['team-details']); ?>>
+                                        <a href="<?php echo $base_url; ?>/team-details"<?php echo $nav_class(['team-details']); ?>>Team Details</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/pricing">Pricing</a>
+                                    <li<?php echo $nav_class(['pricing']); ?>>
+                                        <a href="<?php echo $base_url; ?>/pricing"<?php echo $nav_class(['pricing']); ?>>Pricing</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/faq">FAQ's</a>
+                                    <li<?php echo $nav_class(['faq']); ?>>
+                                        <a href="<?php echo $base_url; ?>/faq"<?php echo $nav_class(['faq']); ?>>FAQ's</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/error">404 Error</a>
+                                    <li<?php echo $nav_class(['error']); ?>>
+                                        <a href="<?php echo $base_url; ?>/error"<?php echo $nav_class(['error']); ?>>404 Error</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#0">Blog</a>
+                            <li<?php echo $nav_class($nav_items['blog']); ?>>
+                                <a href="#0"<?php echo $nav_class($nav_items['blog']); ?>>Blog</a>
                                 <ul class="sub-menu">
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/blog">Blog Grid</a>
+                                    <li<?php echo $nav_class(['blog']); ?>>
+                                        <a href="<?php echo $base_url; ?>/blog"<?php echo $nav_class(['blog']); ?>>Blog Grid</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/blog-standard">Blog Standard</a>
+                                    <li<?php echo $nav_class(['blog-standard']); ?>>
+                                        <a href="<?php echo $base_url; ?>/blog-standard"<?php echo $nav_class(['blog-standard']); ?>>Blog Standard</a>
                                     </li>
-                                    <li>
-                                        <a href="<?php echo $base_url; ?>/blog-details">Blog Details</a>
+                                    <li<?php echo $nav_class(['blog-details']); ?>>
+                                        <a href="<?php echo $base_url; ?>/blog-details"<?php echo $nav_class(['blog-details']); ?>>Blog Details</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="<?php echo $base_url; ?>/contact">Contact</a></li>
+                            <li<?php echo $nav_class($nav_items['contact']); ?>><a href="<?php echo $base_url; ?>/contact"<?php echo $nav_class($nav_items['contact']); ?>>Contact</a></li>
                             <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0"><svg width="17"
                                         height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_307_344)">

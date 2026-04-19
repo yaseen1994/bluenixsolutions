@@ -75,7 +75,7 @@ include 'includes/header.php';
                                     </i>
                                     <div>
                                         <span class="text-white">Call Us 7/24</span>
-                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">+208-555-0112</a>
+                                        <h3 class="mt-1"><a class="text-white" href="tel:+919892570244">+91-9892570244</a>
                                         </h3>
                                     </div>
                                 </li>
@@ -96,7 +96,7 @@ include 'includes/header.php';
                                     </i>
                                     <div>
                                         <span class="text-white">Make a Quote</span>
-                                        <h3 class="mt-1"><a class="text-white" href="#0">info@gmail.com</a>
+                                        <h3 class="mt-1"><a class="text-white" href="#0">info@bluenixsolutions.com</a>
                                         </h3>
                                     </div>
                                 </li>
@@ -114,7 +114,7 @@ include 'includes/header.php';
                                     </i>
                                     <div>
                                         <span class="text-white">Location</span>
-                                        <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">4517 Washington
+                                        <h3 class="mt-1"><a class="text-white" href="tel:+91-9892570244">4517 Washington
                                                 ave.</a>
                                         </h3>
                                     </div>
