@@ -25,10 +25,6 @@ include 'includes/header.php';
     <?php include 'includes/sidebar.php'; ?>
     <!-- Sidebar area end here -->
 
-    <!-- Fullscreen search area start here -->
-    <?php include 'includes/search-wrap.php'; ?>
-    <!-- Fullscreen search area end here -->
-
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -116,7 +112,7 @@ include 'includes/header.php';
         <!-- About area end here -->
 
         <!-- Offer area start here -->
-        <section class="offer-area secondary-bg pt-120 pb-200">
+        <!-- <section class="offer-area secondary-bg pt-120 pb-200">
             <div class="offer__shadow wow fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <img src="<?php echo $base_url; ?>/assets/images/shape/offer-shadow-shape.png" alt="shadow">
             </div>
@@ -308,7 +304,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Offer area end here -->
 
         <!-- Brand area start here -->
@@ -352,91 +348,6 @@ include 'includes/header.php';
         </div>
         <!-- Brand area end here -->
 
-        <!-- Cause area start here -->
-        <section class="case-area pt-120 pb-120">
-            <div class="container">
-                <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between mb-60">
-                    <div class="section-header">
-                        <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
-                            FROM OUR CASE studies
-                        </h5>
-                        <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">We Delivered Best
-                            Solution</h2>
-                    </div>
-                    <a href="<?php echo $base_url; ?>/case" class="btn-one wow fadeInUp" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">view All
-                        Case <i class="fa-regular fa-arrow-right-long"></i></a>
-                </div>
-            </div>
-            <div class="swiper case__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="case__item">
-                            <div class="image case__image">
-                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image1.jpg" alt="image">
-                            </div>
-                            <div class="case__content">
-                                <span class="primary-color sm-font">Solution</span>
-                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">IT Management</a></h3>
-                            </div>
-                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="case__item">
-                            <div class="image case__image">
-                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image2.jpg" alt="image">
-                            </div>
-                            <div class="case__content">
-                                <span class="primary-color sm-font">Technology</span>
-                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Platform
-                                        Integration</a></h3>
-                            </div>
-                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="case__item">
-                            <div class="image case__image">
-                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image3.jpg" alt="image">
-                            </div>
-                            <div class="case__content">
-                                <span class="primary-color sm-font">Solution</span>
-                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Web Development</a>
-                                </h3>
-                            </div>
-                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="case__item">
-                            <div class="image case__image">
-                                <img src="<?php echo $base_url; ?>/assets/images/case/case-image4.jpg" alt="image">
-                            </div>
-                            <div class="case__content">
-                                <span class="primary-color sm-font">Security</span>
-                                <h3><a href="<?php echo $base_url; ?>/case-details" class="text-white primary-hover">Network Security</a>
-                                </h3>
-                            </div>
-                            <a href="<?php echo $base_url; ?>/case-details" class="case__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-60 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="dot case__dot"></div>
-            </div>
-        </section>
-        <!-- Cause area end here -->
 
         <!-- Testimonial area start here -->
         <section class="testimonial-area bg-image pt-120 pb-120" data-background="<?php echo $base_url; ?>/assets/images/bg/testimonial-bg.png">

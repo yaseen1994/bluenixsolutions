@@ -20,8 +20,7 @@ $nav_items = [
     'home' => ['home'],
     'about' => ['about'],
     'services' => ['service-solutions', 'service', 'service-details'],
-    'pages' => ['case', 'case-2', 'case-details', 'team', 'team-details', 'pricing', 'faq', 'error'],
-    'blog' => ['blog', 'blog-standard', 'blog-details'],
+    'pages' => ['team', 'team-details', 'pricing', 'faq'],
     'contact' => ['contact'],
 ];
 
@@ -109,15 +108,7 @@ $nav_class = static function (array $pages, string $default_class = '') use ($cu
                             <li<?php echo $nav_class($nav_items['pages']); ?>>
                                 <a href="#0"<?php echo $nav_class($nav_items['pages']); ?>>Pages</a>
                                 <ul class="sub-menu">
-                                    <li<?php echo $nav_class(['case']); ?>>
-                                        <a href="<?php echo $base_url; ?>/case"<?php echo $nav_class(['case']); ?>>Case Study 01</a>
-                                    </li>
-                                    <li<?php echo $nav_class(['case-2']); ?>>
-                                        <a href="<?php echo $base_url; ?>/case-2"<?php echo $nav_class(['case-2']); ?>>Case Study 02</a>
-                                    </li>
-                                    <li<?php echo $nav_class(['case-details']); ?>>
-                                        <a href="<?php echo $base_url; ?>/case-details"<?php echo $nav_class(['case-details']); ?>>Case Study Details</a>
-                                    </li>
+                                    
                                     <li<?php echo $nav_class(['team']); ?>>
                                         <a href="<?php echo $base_url; ?>/team"<?php echo $nav_class(['team']); ?>>Our Team</a>
                                     </li>
@@ -130,27 +121,10 @@ $nav_class = static function (array $pages, string $default_class = '') use ($cu
                                     <li<?php echo $nav_class(['faq']); ?>>
                                         <a href="<?php echo $base_url; ?>/faq"<?php echo $nav_class(['faq']); ?>>FAQ's</a>
                                     </li>
-                                    <li<?php echo $nav_class(['error']); ?>>
-                                        <a href="<?php echo $base_url; ?>/error"<?php echo $nav_class(['error']); ?>>404 Error</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li<?php echo $nav_class($nav_items['blog']); ?>>
-                                <a href="#0"<?php echo $nav_class($nav_items['blog']); ?>>Blog</a>
-                                <ul class="sub-menu">
-                                    <li<?php echo $nav_class(['blog']); ?>>
-                                        <a href="<?php echo $base_url; ?>/blog"<?php echo $nav_class(['blog']); ?>>Blog Grid</a>
-                                    </li>
-                                    <li<?php echo $nav_class(['blog-standard']); ?>>
-                                        <a href="<?php echo $base_url; ?>/blog-standard"<?php echo $nav_class(['blog-standard']); ?>>Blog Standard</a>
-                                    </li>
-                                    <li<?php echo $nav_class(['blog-details']); ?>>
-                                        <a href="<?php echo $base_url; ?>/blog-details"<?php echo $nav_class(['blog-details']); ?>>Blog Details</a>
-                                    </li>
                                 </ul>
                             </li>
                             <li<?php echo $nav_class($nav_items['contact']); ?>><a href="<?php echo $base_url; ?>/contact"<?php echo $nav_class($nav_items['contact']); ?>>Contact</a></li>
-                            <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0"><svg width="17"
+                            <!-- <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0"><svg width="17"
                                         height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_307_344)">
                                             <path
@@ -163,7 +137,7 @@ $nav_class = static function (array $pages, string $default_class = '') use ($cu
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                </a></li>
+                                </a></li> -->
                         </ul>
                     </nav>
                 </div>

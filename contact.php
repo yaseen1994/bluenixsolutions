@@ -25,10 +25,6 @@ include 'includes/header.php';
     <?php include 'includes/sidebar.php'; ?>
     <!-- Sidebar area end here -->
 
-    <!-- Fullscreen search area start here -->
-    <?php include 'includes/search-wrap.php'; ?>
-    <!-- Fullscreen search area end here -->
-
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -114,8 +110,7 @@ include 'includes/header.php';
                                     </i>
                                     <div>
                                         <span class="text-white">Location</span>
-                                        <h3 class="mt-1"><a class="text-white" href="tel:+91-9892570244">4517 Washington
-                                                ave.</a>
+                                        <h3 class="mt-1"><a class="text-white" href="tel:+91-9892570244">Sewri, Mumbai 400015</a>
                                         </h3>
                                     </div>
                                 </li>

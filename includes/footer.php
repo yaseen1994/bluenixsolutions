@@ -17,7 +17,7 @@
         </div>
         <div class="container">
             <div class="footer__wrp pt-100 pb-100">
-                <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <!-- <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <a href="<?php echo $base_url; ?>" class="logo mb-30">
                         <img src="<?php echo $base_url; ?>/assets/images/logo/logo.png" alt="image">
                     </a>
@@ -30,7 +30,7 @@
                         <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#0"><i class="fa-brands fa-youtube"></i></a>
                     </div>
-                </div>
+                </div> -->
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">IT Solution</h3>
                     <ul>
@@ -51,18 +51,18 @@
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Quick Link</h3>
                     <ul>
-                        <li><a href="<?php echo $base_url; ?>/about"><i class="fa-regular fa-angles-right me-1"></i> About Gratech</a></li>
+                        <li><a href="<?php echo $base_url; ?>/about"><i class="fa-regular fa-angles-right me-1"></i> About Bluenix Solutions</a></li>
                         <li><a href="<?php echo $base_url; ?>/service"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
                         </li>
                         <li><a href="<?php echo $base_url; ?>/pricing"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
                         </li>
                         <li><a href="<?php echo $base_url; ?>/case"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
-                        <li><a href="<?php echo $base_url; ?>/team"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
+                        <!-- <li><a href="<?php echo $base_url; ?>/team"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li> -->
                     </ul>
                 </div>
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Contact Us</h3>
-                    <!-- <p class="mb-20">4517 Washington Ave. Manchester, Kentucky 39495</p> -->
+                    <p class="mb-20">Sewri, Mumbai 400015</p>
                     <ul class="footer-contact">
                         <!-- <li>
                             <i class="fa-regular fa-clock"></i>
@@ -90,8 +90,8 @@
             <div class="container">
                 <div
                     class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
-                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2026
-                        by <a href="#0">Bluenix Solutions</a></p>
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms"> &copy; All Copyright 2026
+                        by <a href="#0"> Bluenix Solutions</a></p>
                     <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <li><a href="#0">Terms & Condition</a></li>

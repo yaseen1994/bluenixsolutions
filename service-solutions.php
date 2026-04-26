@@ -25,10 +25,6 @@ include 'includes/header.php';
     <?php include 'includes/sidebar.php'; ?>
     <!-- Sidebar area end here -->
 
-    <!-- Fullscreen search area start here -->
-    <?php include 'includes/search-wrap.php'; ?>
-    <!-- Fullscreen search area end here -->
-
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -133,7 +129,7 @@ include 'includes/header.php';
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <img class="me-1" src="<?php echo $base_url; ?>/assets/images/icon/section-title.png" alt="icon">
-                                ABOUT Gratech
+                                Bluenix Solutions
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Strive to
                                 Offer Intelligent Business Solutions</h2>

@@ -25,10 +25,6 @@ include 'includes/header.php';
     <?php include 'includes/sidebar.php'; ?>
     <!-- Sidebar area end here -->
 
-    <!-- Fullscreen search area start here -->
-    <?php include 'includes/search-wrap.php'; ?>
-    <!-- Fullscreen search area end here -->
-
     <main>
         <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
